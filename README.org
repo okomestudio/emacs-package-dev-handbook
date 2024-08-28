@@ -5016,29 +5016,3 @@ CLOSED: [2017-08-03 Thu 15:11]
 ** Table of Contents
 
 The ToC is generated using [[https://github.com/alphapapa/org-make-toc][org-make-toc]].
-
-** Config                                                         :noexport:
-
-I love Emacs and Org mode.  This makes it so easy to make the document...alive!  And automated!  Beautiful.
-
-*** File-local properties
-
-#+PROPERTY: header-args:elisp :tangle no
-
-# Export the author and published properties.
-#+OPTIONS: prop:("author" "published")
-
-*** File-local variables
-
-# Local Variables:
-# eval: (require 'org-make-toc)
-# eval: (unpackaged/org-export-html-with-useful-ids-mode 1)
-# before-save-hook: org-make-toc
-# after-save-hook: (lambda nil (org-babel-tangle) (when (org-html-export-to-html) (rename-file "README.html" "index.html" t)))
-# org-export-with-properties: ()
-# org-export-with-title: t
-# org-export-with-broken-links: t
-# org-id-link-to-org-use-id: nil
-# org-export-initial-scope: buffer
-# org-make-toc-insert-custom-ids: t
-# End:
