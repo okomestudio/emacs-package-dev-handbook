@@ -1,8 +1,14 @@
+:PROPERTIES:
+:ID:       425c12ea-0cd6-4229-9aad-3294abff2c4b
+:END:
 #+TITLE: The Emacs Package Developer's Handbook
+#+FILETAGS: :m:emacs:
 
 #+OPTIONS: broken-links:t num:nil H:8 d:nil
 #+TAGS: Emacs
 #+SETUPFILE: export/setup/theme-darksun-local.setup
+
+NOTE: This file should be copied to simply replace the exiting Org file with the same ID.
 
 After developing some little Emacs packages for a year or so, I began to notice how I'd forget little things that I learned, and then I'd have to go hunting for that information again.  I also noticed how there are some issues for which there doesn't seem to be a "best practice" or "Standard Operating Procedure" to refer to.
 
